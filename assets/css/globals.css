@@ -97,6 +97,10 @@ a:hover {
     align-items: center;
   }
 
+  .hero-btn {
+    margin-top: 5%;
+  }
+
   .btns .getstarted,
   .btns .getstarted:focus {
   background: #558FEE;
@@ -111,7 +115,7 @@ a:hover {
 
   @media (max-width : 1260px){
     h1 {
-      font-size: 64px;
+      font-size: 60px;
       font-style: normal;
       line-height: 108.1%;
     }
@@ -139,8 +143,6 @@ a:hover {
   
     h6 {
       font-size: 16px;
-      line-height: 24px;
-      line-height: 35.27px;
       font-weight: 400;
     }
   
@@ -186,7 +188,7 @@ a:hover {
 }
 
 .ham-icon {
-  padding: 10px;
+  padding: 8px;
   margin: 0px 30px 0px 0px;
   border-radius: 7px;
   background: #c2c2c2;
@@ -352,6 +354,18 @@ strong::after {
   border-radius: 20px;
   padding: 2% 2%;
   width: 100%;
+}
+
+.card2 {
+  margin-left: 4%;
+}
+
+.card3 {
+  margin-left: 4%;
+}
+
+.card4 {
+  margin-left: 4%;
 }
 
 .img-div {
@@ -618,12 +632,86 @@ strong::after {
   }
 }
 
-@media (max-width : 1023px) {
+@media (max-width : 1024px) {
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .ham-icon {
+    display: block;
+  }
+
+  
+  #hero-work {
+    background-position: 80% 120%, 0vh 20vh,0vh 25vh;
+  }
+
   .sub-img {
     width: 75%;
   }
 
   .step-img {
     width: 75%;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width : 992px) {
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .position-absolute {
+    margin-left: -35%;
+  }
+
+  .work-cards {
+    flex-wrap: wrap;
+  }
+
+  .work-card {
+    width: 45%;
+  }
+  
+  .card1 {
+    margin-left: 4%;
+  }
+
+  .card3 {
+    margin-top: 4%;
+  }
+  
+  .card4 {
+    margin-top: 4%;
+  }
+
+  .direction-img-even1 {
+    margin-bottom: 0%;
+  }
+  .direction-even2 {
+    margin-top: 0%;
   }
 }
