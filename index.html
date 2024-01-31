@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,429 +9,647 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/globals.css">
-</head>
-<body>
-    <!--========== Header ==========-->
-    <header  id="header">
-
-        <div class="header-div">
-
-            <div class="logo">
-                <a href="index.html"><img src="assets/images/logo.png" alt="Logob" class="img-fluid"></a>
-            </div>
-
-            <nav id="navbar" class="navbar">
-                <ul class="d-flex">
-                    <li><a class="nav-link scrollto active" href="#hero">About</a></li>
-                    <li><a class="nav-link scrollto" href="#about">How it Works</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Packages</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Portfolio</a></li>
-                </ul>
-            </nav><!-- .navbar -->
-
-            <div class="btns">
-                <a class="nav-link scrollto" href="#about">Log In</a>
-                <a class="getstarted scrollto nav-link" href="#about">Try For Free</a>
-            </div>
-        </div>
-
-    </header>
-    <!--======== End Header ========-->
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <style>
     
-    <!--========== Hero ==========-->
-    <section id="hero">
-        <div class="hero-text">
-            <h1>
-                Creative work <span>simplified.</span>
-            </h1>
-            <p>
-                Quality design work and social media management at par with the agencies. Minus the enormous price tag and complicated process.
-            </p>
-            <ul class="hero-ul">
-                <li>Free trial</li>
-                <li>Work done in 1-3 business days</li>
-                <li>Unlimited revisions</li>
-            </ul>
-            <div class="btns">
-                <a class="getstarted nav-link m-0" href="">See Our Packages <img src="assets/images/search.svg" alt=""></a>
-            </div>
-        </div>
-        <div>
-            <img class="laptop-img" src="assets/images/laptop.svg" alt="">
-        </div>
-    </section>
-    <!--======== End Hero ========-->
+        .slick-dots li.slick-active button:before {
+            color: white;
+        }
+        .slick-dots li button::before {
+            color: white;
+        }    
+        .slick-slide {
+            margin: 0px 20px;
+        }
+    </style>
+</head>
 
-    <!--========== Work ==========-->
-    <section id="work">
-        <div>
-            <div>
-                <div>
-                    <div>
-                        <img src="assets/images/Outer Sample Project.svg" alt="">
-                        <img src="assets/images/Project Overview.svg" alt="">
+<body>
+    <div class="main m-0 p-0">
+        <!--========== Header ==========-->
+        <header id="header">
+
+            <div class="header-div">
+
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="Logob" class="img-fluid"></a>
+                </div>
+
+                <nav id="navbar" class="navbar">
+                    <ul class="d-flex">
+                        <li><a class="nav-link scrollto active" href="#hero">About</a></li>
+                        <li><a class="nav-link scrollto" href="#about">How it Works</a></li>
+                        <li><a class="nav-link scrollto" href="#services">Packages</a></li>
+                        <li><a class="nav-link scrollto" href="#contact">Portfolio</a></li>
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <div class="btns">
+                    <a class="nav-link scrollto" href="#about">Log In</a>
+                    <a class="getstarted scrollto nav-link" href="#about">Try For Free</a>
+                    <a href="#hero" class="ham-icon"><img src="assets/images/ham.svg" alt=""></a>
+                </div>
+            </div>
+
+        </header>
+        <!--======== End Header ========-->
+
+        <!--=========== Hero-Work ==========-->
+        <section id="hero-work">
+
+            <!--========== Hero ==========-->
+            <section id="hero">
+                <div class="hero-text">
+                    <h1>
+                        Creative work <span>simplified.</span>
+                    </h1>
+                    <p class="mt-4 w-75">
+                        Quality design work and social media management at par with the agencies. Minus the enormous
+                        price tag and complicated process.
+                    </p>
+                    <div class="list mt-4">
+                        <p><b>Free trial</b></p>
+                        <p><b>Work done in 1-3 business days</b></p>
+                        <p><b>Unlimited revisions</b></p>
                     </div>
-                    <div>
-                        <h2>
-                            How Does Brand Captain Work?
-                        </h2>
-                        <p>
-                            We're like a subscription service for creative work—pay a fixed price once a month and request for as many projects as you want. Your subscription determines what types of projects you can request and how many active projects you can have at any given time.
-                        </p>
+                    <div class="btns mt-5">
+                        <a class="getstarted nav-link ms-0" href="">See Our Packages <img src="assets/images/search.svg"
+                                alt=""></a>
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <img src="assets/images/Sign Up Screen.svg" alt="">
-                    </div>
-                    <div>
-                        <h5>
-                            
-                            The flow of each project is simple. We get the details,
-                            do the work, make sure you love it 100%, and send 
-                            you the finished files. <span>No extra tedious steps.</span>
-
-                        </h5>
-                    </div>
+                    <img class="laptop-img" src="assets/images/laptop.svg" alt="">
                 </div>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <h5>STEP 1</h5>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="assets/images/Step 1 1.svg" alt="">
+            </section>
+            <!--======== End Hero ========-->
+
+            <!--========== Work ==========-->
+            <section id="work">
+                <div class="work-part1 d-flex align-items-end">
+                    <div class="work-left">
+                        <div class="d-flex">
+                            <img class="pro-img1" src="assets/images/pro-img1.svg" alt="">
+                            <img class="pro-img2" src="assets/images/pro-img2.svg" alt="">
                         </div>
+                        <div class="mt-5">
+                            <h2>
+                                How Does <br> Brand Captain Work?
+                            </h2>
+                            <p class="work-left-text">
+                                We're like a subscription service for creative work—pay a fixed price once a month and
+                                request for as many projects as you want. Your subscription determines what types of
+                                projects you can request and how many active projects you can have at any given time.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="work-right">
                         <div>
-                            <h6>
+                            <img class="pro-img3" src="assets/images/Sign Up Screen.svg" alt="">
+                        </div>
+                        <div class="work-text-div2">
+                            <h5 class="text-white pt-5">
+
+                                The flow of each project is simple. We get the details,
+                                do the work, make sure you love it 100%, and send
+                                you the finished files. <strong>No extra tedious steps.</strong>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-cards">
+                    <div class="work-card">
+                        <div class="step position-absolute">
+                            <h5>STEP 1</h5>
+                        </div>
+                        <div class="img-div">
+                            <img class="step-img" src="assets/images/step-1.svg" alt="">
+                        </div>
+                        <div class="pb-2">
+                            <h6 class="text-center fw-bold">
                                 Tell us about the project. 🔎
                             </h6>
                         </div>
                         <div>
-                            <p>
-                                We ask you to fill out a short job order form to help us get a clearer grasp of your project. Don't worry, there'll be guide questions.
+                            <p class="text-center">
+                                We ask you to fill out a short job order form to help us get a clearer grasp of your
+                                project. Don't worry, there'll be guide questions.
                             </p>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <h5>STEP 2</h5>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="assets/images/Step 2 1.svg" alt="">
+                    <div class="work-card ms-5">
+                        <div class="step position-absolute">
+                            <h5>STEP 2</h5>
+                        </div>
+                        <div class="img-div">
+                            <img class="step-img" src="assets/images/step-2.svg" alt="">
                         </div>
                         <div>
-                            <h6>
+                            <h6 class="text-center fw-bold">
                                 We start working. 💪
                             </h6>
                         </div>
                         <div>
-                            <p>
-                                We assign you team members that best match your brand, start the project as soon as possible, and send you the first draft in 1-3 business days. 
+                            <p class="text-center">
+                                We assign you team members that best match your brand, start the project as soon as
+                                possible, and send you the first draft in 1-3 business days.
                             </p>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <h5>STEP 3</h5>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="assets/images/Step 3 1.svg" alt="">
+                    <div class="work-card ms-5">
+                        <div class="step position-absolute">
+                            <h5>STEP 3</h5>
+                        </div>
+                        <div  class="img-div pt-5">
+                            <img class="step-img" src="assets/images/step-3.svg" alt="">
                         </div>
                         <div>
-                            <h6>
+                            <h6 class="text-center fw-bold">
                                 Share your feedback. 📂
                             </h6>
                         </div>
                         <div>
-                            <p>
-                                Did we nail it? Check the first draft and tell us if we need to change something. We'll revise the work until we've fully captured your vision.
+                            <p class="text-center">
+                                Did we nail it? Check the first draft and tell us if we need to change something. We'll
+                                revise the work until we've fully captured your vision.
                             </p>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <h5>STEP 4</h5>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="assets/images/Step 4 1.svg" alt="">
+                    <div class="work-card ms-5">
+                        <div class="step position-absolute">
+                            <h5>STEP 4</h5>
+                        </div>
+                        <div class="img-div">
+                            <img class="step-img" src="assets/images/step-4.svg" alt="">
                         </div>
                         <div>
-                            <h6>
+                            <h6 class="text-center fw-bold">
                                 Aaand you're done. ✨
                             </h6>
                         </div>
                         <div>
-                            <p>
-                                Once you're happy with the work, we send you all the final assets. You now have full ownership over all the files we turn over!
+                            <p class="text-center">
+                                Once you're happy with the work, we send you all the final assets. You now have full
+                                ownership over all the files we turn over!
                             </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!--======== End Work ========-->
+            </section>
+            <!--======== End Work ========-->
 
-    <!--========== Direction ==========-->
-    <section id="direction">
-        <div>
-            <div>
-                <h2>
-                    We're making creative work less complicated for businesses of all sizes. Let's steer your brand in the <span>right direction!</span>
+        </section>
+        <!--========= End Hero ========-->
+
+
+        <!--========== Direction ==========-->
+        <section id="direction">
+            <div class="direction1">
+                <div class="direction-odd1">
+                    <div class="direction-text-odd1">
+                        <h2 class="text-dark">
+                            We're making creative work less complicated for businesses of all sizes. Let's steer your
+                            brand
+                            in the <span>right direction!</span>
+                        </h2>
+                    </div>
+                    <div class="direction-img">
+                        <img class="img1 w-100" src="assets/images/direction-img1.svg" alt="">
+                    </div>
+                </div>
+                <div class="direction-even1">
+                    <div class="direction-text-even1">
+                        <h3 class="fw-bold">
+                            Accessible agency-quality work.
+                        </h3>
+                        <h6 class="pt-4">
+                            Need the creative muscle but can't spare the budget for an agency right now? We cut out all
+                            the
+                            hefty price tags and intimidating processes while still delivering work that's at par with
+                            the
+                            most talented agencies.
+                        </h6>
+                    </div>
+                    <div class="direction-img-even1">
+                        <img class="w-100" src="assets/images/direction-img2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="direction-odd2">
+                <div class="direction-text-odd2">
+                    <h3 class="w-75 fw-bold">
+                        Get the work
+                        done fast.
+                    </h3>
+                    <h6 class="pt-4">
+                        We get your work done in 1-3 business days, depending on your project. Each team member can only
+                        be assigned to a certain number of clients at a time, ensuring faster turnovers and better work
+                        quality.
+                    </h6>
+                </div>
+                <div class="direction-img-odd2">
+                    <img class="w-100" src="assets/images/direction-img3.svg" alt="">
+                </div>
+            </div>
+            <div class="direction-even2">
+                <div class="direction-text-even2">
+                    <h3 class="fw-bold">
+                        Be part of the creation process.
+                    </h3>
+                    <h6 class="pt-4">
+                        Before a project even starts, you'll fill out a request form so you can tell us exactly how you
+                        want the final output to turn out. We'll never start a project unless we understand exactly what
+                        you need.
+                    </h6>
+                </div>
+                <div class="direction-img-even2">
+                    <img class="w-100" src="assets/images/direction-img4.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--======== End Direction ========-->
+
+        <!--========== Subscribers ==========-->
+        <section id="subscribers">
+            <div class="sub-title">
+                <h2 class="text-dark">
+                    Our Monthly Subscribers
                 </h2>
             </div>
-            <div>
-                <img src="assets/images/marginalia-762 2.svg" alt="">
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>
-                    Accessible agency-quality work.
-                </h3>
-                <h6>
-                    Need the creative muscle but can't spare the budget for an agency right now? We cut out all the hefty price tags and intimidating processes while still delivering work that's at par with the most talented agencies.
-                </h6>
-            </div>
-            <div>
-                <img src="assets/images/marginalia-676 2.svg" alt="">
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>
-                    Get the work 
-                    done fast.                    
-                </h3>
-                <h6>
-                    We get your work done in 1-3 business days, depending on your project. Each team member can only be assigned to a certain number of clients at a time, ensuring faster turnovers and better work quality.
-                </h6>
-            </div>
-            <div>
-                <img src="assets/images/marginalia-working 1.svg" alt="">
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>
-                    Be part of the creation process.                   
-                </h3>
-                <h6>
-                    Before a project even starts, you'll fill out a request form so you can tell us exactly how you want the final output to turn out. We'll never start a project unless we understand exactly what you need.
-                </h6>
-            </div>
-            <div>
-                <img src="assets/images/marginalia-online-cooperation 1.svg" alt="">
-            </div>
-        </div>
-    </section>
-    <!--======== End Direction ========-->
-
-    <!--========== Subscribers ==========-->
-    <section id="subscribers">
-        <div>
-            <h2>
-                Our Monthly Subscribers
-            </h2>
-        </div>
-        <div>
-            <div>
-                <img src="assets/images/Logo 4.svg" alt="">
-            </div>
-            <div>
-                <img src="assets/images/Logo 3.svg" alt="">
-            </div>
-            <div>
-                <img src="assets/images/Logo 2.svg" alt="">
-            </div>
-            <div>
-                <img src="assets/images/Logo 1.svg" alt="">
-            </div>
-        </div>
-    </section>
-    <!--======== End Subscribers ========-->
-
-    <!--========== Revisions ==========-->
-    <section id="revisions">
-        <div>
-            <div>
-                <h3>
-                    Unlimited revisions.
-                </h3>
-                <h6>
-                    You'll be checking the work, giving us feedback, and suggesting improvements as we finalize your project. Request for as many revisions as it takes to get the work the way your vision intended it to be.
-                </h6>
-            </div>
-            <div>
-                <img src="assets/images/marginalia-698 1.svg" alt="">
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>
-                    Transparency all the way.
-                </h3>
-                <h6>
-                    No super top-secret fees. We let you in on our entire work process and stay absolutely transparent with our prices, without bogging you down with complicated contracts and costing tables.
-                </h6>
-            </div>
-            <div>
-                <img src="assets/images/Group 58.svg" alt="">
-            </div>
-        </div>
-    </section>
-    <!--======== End Revisions ========-->
-
-    <!-- Clients -->
-    <section id="clients">
-        <div>
-            <h2>
-                What do our clients think of us?
-            </h2>
-        </div>
-        <div class="row m-0 p-0">
-            <div class="col">
+            <div class="subs">
                 <div>
-                    <div>
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector s.svg" alt="">
-                    </div>
-                    <div>
-                        <h3>
-                            One of the best platforms ever!
-                        </h3>
-                    </div>
-                    <div>
-                        <p>
-                            Working with Brand Captain is really convenient, relaxed and personal. Communication is really quick through their platform and they don't need that much direction. 
-Each designer has their own approach and is really creative.
-                        </p>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="assets/images/profile1.png" alt="">
-                        </div>
-                        <div>
-                            <div>
-                                <h4>
-                                    John Doe
-                                </h4>
-                            </div>
-                            <div>
-                                <h6>
-                                    Business Solutions
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div>
-                    <div>
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector s.svg" alt="">
-                        <img src="assets/images/Vector (4).svg" alt="">
-                    </div>
-                    <div>
-                        <h3>
-                            I received complex designs within only 48 hours
-                        </h3>
-                    </div>
-                    <div>
-                        <p>
-                            Brand Captain is more affordable than all of the things I tried before. It was always hard to be profitable. As an owner of a digital marketing agency I highly recommend using Brand Capatain
-                        </p>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="assets/images/profile2.png" alt="">
-                        </div>
-                        <div>
-                            <div>
-                                <h4>
-                                    Anne Brown
-                                </h4>
-                            </div>
-                            <div>
-                                <h6>
-                                    Digital Media Specialist
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Clients -->
-
-    <!-- Talk -->
-    <section id="talk">
-        <div class="row m-0 p-0">
-            <div class="col">
-                <div>
-                    <h2>Talk to us!</h2>
+                    <img class="sub-img" src="assets/images/Logo 4.svg" alt="">
                 </div>
                 <div>
-                    <h5>
-                        Wanna learn more about Brand Captain and our packages? How about scheduling a demo? Send us your questions here and we'll respond soonest.
+                    <img class="sub-img" src="assets/images/Logo 3.svg" alt="">
+                </div>
+                <div>
+                    <img class="sub-img" src="assets/images/Logo 2.svg" alt="">
+                </div>
+                <div>
+                    <img class="sub-img" src="assets/images/Logo 1.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--======== End Subscribers ========-->
+
+        <!--========== Revisions ==========-->
+        <section id="revisions">
+            <div class="revision1">
+                <div class="revision1-text ps-5">
+                    <h3 class="w-50 fw-bold">
+                        Unlimited revisions.
+                    </h3>
+                    <h5 class="pt-5">
+                        You'll be checking the work, giving us feedback, and suggesting improvements as we finalize your
+                        project. Request for as many revisions as it takes to get the work the way your vision intended
+                        it to be.
                     </h5>
                 </div>
+                <div class="revision1-img">
+                    <img class="w-100" src="assets/images/marginalia-698 1.svg" alt="">
+                </div>
             </div>
-            <div class="col">
-                <form action="">
-                    <input type="text">
-                    <input type="email">
-                    <textarea name="message" id="" cols="30" rows="10"></textarea>
-                </form>
+            <div class="revision2">
+                <div class="revision2-text">
+                    <h3 class="fw-bold">
+                        Transparency all the way.
+                    </h3>
+                    <h5 class="pt-5">
+                        No super top-secret fees. We let you in on our entire work process and stay absolutely
+                        transparent with our prices, without bogging you down with complicated contracts and costing
+                        tables.
+                    </h5>
+                </div>
+                <div>
+                    <img class="w-100" src="assets/images/Group 58.svg" alt="">
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- End Talk -->
-    
-    <!-- Footer -->
-    <footer>
-        <div>
-            <img src="assets/images/logof.svg" alt="">
-        </div>
-        <div>
-            Brand Captain provides affordable, agency-quality graphic design and social media marketing to help you grow your business.
-        </div>
-        <div>
-            <ul>
-                <li>About</li>
-                <li>How it Works</li>
-                <li>Packages</li>
-                <li>Portfolio</li>
-                <li>Blog</li>
-                <li>FAQs</li>
-            </ul>
-            <div>
-                <img src="assets/images/f.svg" alt="">
-                <img src="assets/images/insta.svg" alt="">
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
+        </section>
+        <!--======== End Revisions ========-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous">
-    </script>
+        <!-- Clients -->
+        <section id="clients">
+            <div>
+                <h2>
+                    What do our clients think of us?
+                </h2>
+            </div>
+            <div class="client-cards regular slider">
+                <div class="d-flex">
+                    <div class="card">
+                            <div class="d-flex">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="fw-bold">
+                                    One of the best platforms ever!
+                                </h4>
+                            </div>
+                            <div>
+                                <p>
+                                    Working with Brand Captain is really convenient, relaxed and personal. Communication is
+                                    really quick through their platform and they don't need that much direction.
+                                    Each designer has their own approach and is really creative.
+                                </p>
+                            </div>
+                            <div class="profile-card pt-4">
+                                <div>
+                                    <img class="rounded rounded-circle" src="assets/images/profile1.png" alt="">
+                                </div>
+                                <div class="ms-4">
+                                    <div>
+                                        <h5>
+                                            John Doe
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-black-50">
+                                            Business Solutions
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="d-flex">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector (4).svg" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="fw-bold">
+                                    I received complex designs within only 48 hours
+                                </h4>
+                            </div>
+                            <div class="pt-4">
+                                <p>
+                                    Brand Captain is more affordable than all of the things I tried before. It was always
+                                    hard to be profitable. As an owner of a digital marketing agency I highly recommend
+                                    using Brand Capatain
+                                </p>
+                            </div>
+                            <div class="profile-card pt-4">
+                                <div>
+                                    <img class="rounded rounded-circle" src="assets/images/profile2.png" alt="">
+                                </div>
+                                <div class="ms-4">
+                                    <div>
+                                        <h5>
+                                            Anne Brown
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-black-50">
+                                            Digital Media Specialist
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="card">
+                            <div class="d-flex">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="fw-bold">
+                                    One of the best platforms ever!
+                                </h4>
+                            </div>
+                            <div>
+                                <p>
+                                    Working with Brand Captain is really convenient, relaxed and personal. Communication is
+                                    really quick through their platform and they don't need that much direction.
+                                    Each designer has their own approach and is really creative.
+                                </p>
+                            </div>
+                            <div class="profile-card pt-4">
+                                <div>
+                                    <img class="rounded rounded-circle" src="assets/images/profile1.png" alt="">
+                                </div>
+                                <div class="ms-4">
+                                    <div>
+                                        <h5>
+                                            John Doe
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-black-50">
+                                            Business Solutions
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="d-flex">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector (4).svg" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="fw-bold">
+                                    I received complex designs within only 48 hours
+                                </h4>
+                            </div>
+                            <div class="pt-4">
+                                <p>
+                                    Brand Captain is more affordable than all of the things I tried before. It was always
+                                    hard to be profitable. As an owner of a digital marketing agency I highly recommend
+                                    using Brand Capatain
+                                </p>
+                            </div>
+                            <div class="profile-card pt-4">
+                                <div>
+                                    <img class="rounded rounded-circle" src="assets/images/profile2.png" alt="">
+                                </div>
+                                <div class="ms-4">
+                                    <div>
+                                        <h5>
+                                            Anne Brown
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-black-50">
+                                            Digital Media Specialist
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="card">
+                            <div class="d-flex">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="fw-bold">
+                                    One of the best platforms ever!
+                                </h4>
+                            </div>
+                            <div>
+                                <p>
+                                    Working with Brand Captain is really convenient, relaxed and personal. Communication is
+                                    really quick through their platform and they don't need that much direction.
+                                    Each designer has their own approach and is really creative.
+                                </p>
+                            </div>
+                            <div class="profile-card pt-4">
+                                <div>
+                                    <img class="rounded rounded-circle" src="assets/images/profile1.png" alt="">
+                                </div>
+                                <div class="ms-4">
+                                    <div>
+                                        <h5>
+                                            John Doe
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-black-50">
+                                            Business Solutions
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="d-flex">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector s.svg" alt="">
+                                <img src="assets/images/Vector (4).svg" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h4 class="fw-bold">
+                                    I received complex designs within only 48 hours
+                                </h4>
+                            </div>
+                            <div class="pt-4">
+                                <p>
+                                    Brand Captain is more affordable than all of the things I tried before. It was always
+                                    hard to be profitable. As an owner of a digital marketing agency I highly recommend
+                                    using Brand Capatain
+                                </p>
+                            </div>
+                            <div class="profile-card pt-4">
+                                <div>
+                                    <img class="rounded rounded-circle" src="assets/images/profile2.png" alt="">
+                                </div>
+                                <div class="ms-4">
+                                    <div>
+                                        <h5>
+                                            Anne Brown
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h6 class="text-black-50">
+                                            Digital Media Specialist
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Clients -->
+
+        <section id="talk-footer">
+            
+                    <!-- Talk -->
+                    <section id="talk">
+                        <div class="talk">
+                            <div class="talk-text">
+                                <div>
+                                    <h2 class="text-dark">Talk to us!</h2>
+                                </div>
+                                <div>
+                                    <h5 class="w-75">
+                                        Wanna learn more about Brand Captain and our packages? How about scheduling a demo? 
+                                        
+                                        <br>
+                                        <br>
+                                        Send us your questions here and we'll respond soonest.
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="talk-form">
+                                <form action="" class="d-flex flex-column">
+                                    <input class="rounded p-3" type="text" placeholder="Your Name">
+                                    <input class="rounded mt-3 p-3" type="email" placeholder="Your Email">
+                                    <textarea class="rounded mt-3 p-3" name="message" cols="30" rows="7" placeholder="Your message..."></textarea>
+                                    <button class="form-btn rounded mt-4 p-3" >Submit Inquiry</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End Talk -->
+            
+                    <!-- Footer -->
+                    <section id="footer">
+                        <div class="pt-5">
+                            <img src="assets/images/logof.svg" alt="">
+                        </div>
+                        <div class="footer-text text-white">
+                            <h5>
+                                Brand Captain provides affordable, agency-quality graphic design and social media marketing to help you
+                                grow your business.
+                            </h5>
+                        </div>
+                        <div class="footer-nav">
+                            <ul class="text-white fw-bold">
+                                <li><a class="text-white ms-0" href="">About</a></li>
+                                <li><a class="text-white ms-0" href="">How it Works</a></li>
+                                <li><a class="text-white ms-0" href="">Packages</a></li>
+                                <li><a class="text-white ms-0" href="">Portfolio</a></li>
+                                <li><a class="text-white ms-0" href="">Blog</a></li>
+                                <li><a class="text-white ms-0" href="">FAQs</a></li>
+                            </ul>
+                            <div>
+                                <a href=""><img src="assets/images/f.svg" alt=""></a>
+                                <a href=""><img src="assets/images/insta.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End Footer -->
+
+        </section>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(document).on('ready', function() {
+        $(".regular").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        });
+      });
+  </script>
+
 </body>
+
 </html>
