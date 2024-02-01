@@ -46,13 +46,13 @@
                     </ul>
                 </nav><!-- .navbar -->
 
-                <div class="btns">
+                <div class="btns nav-btns">
                     <a class="nav-link scrollto" href="#about">Log In</a>
                     <a class="getstarted scrollto nav-link" href="#about">Try For Free</a>
-                    <a class="ham-icon"><img class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                            aria-label="Toggle navigation" src="assets/images/ham.svg" alt=""></a>
                 </div>
+                <a class="ham-icon"><img class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation" src="assets/images/ham.svg" alt=""></a>
 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
@@ -62,13 +62,21 @@
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
+                        <div>
+                            <ul>
+                                <li class="p-3"><a class="nav-link scrollto active" href="#hero">About</a></li>
+                                <li class="p-3"><a class="nav-link scrollto" href="#work">How it Works</a></li>
+                                <li class="p-3"><a class="nav-link scrollto" href="#services">Packages</a></li>
+                                <li class="p-3"><a class="nav-link scrollto" href="#contact">Portfolio</a></li>
+                                <li class="ps-3 pe-3 pt-5 pb-3"><a class="nav-link scrollto" href="#about">Log In</a></li>
+                                <li class="p-3">
+                                    <div class="btns">
+                                        <a class="getstarted scrollto nav-link w-100 d-flex justify-content-center" href="#about">Try For Free</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
 
-                        <ul>
-                            <li class="p-3"><a class="nav-link scrollto active" href="#hero">About</a></li>
-                            <li class="p-3"><a class="nav-link scrollto" href="#work">How it Works</a></li>
-                            <li class="p-3"><a class="nav-link scrollto" href="#services">Packages</a></li>
-                            <li class="p-3"><a class="nav-link scrollto" href="#contact">Portfolio</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -80,7 +88,7 @@
         <section id="hero-work">
 
             <!--========== Hero ==========-->
-            <section id="hero">
+            <section id="hero" class="hero">
                 <div class="hero-text">
                     <h1>
                         Creative work <span>simplified.</span>
@@ -107,7 +115,7 @@
 
             <!--========== Work ==========-->
             <section id="work">
-                <div class="work-part1 d-flex align-items-end">
+                <div class="work-part1">
                     <div class="work-left">
                         <div class="d-flex">
                             <img class="pro-img1" src="assets/images/pro-img1.svg" alt="">
@@ -317,11 +325,11 @@
         <!--========== Revisions ==========-->
         <section id="revisions">
             <div class="revision1">
-                <div class="revision1-text ps-5">
+                <div class="revision1-text">
                     <h3 class="w-50 fw-bold">
                         Unlimited revisions.
                     </h3>
-                    <h6 class="pt-5">
+                    <h6 class="pt-4">
                         You'll be checking the work, giving us feedback, and suggesting improvements as we finalize your
                         project. Request for as many revisions as it takes to get the work the way your vision intended
                         it to be.
@@ -336,7 +344,7 @@
                     <h3 class="fw-bold">
                         Transparency all the way.
                     </h3>
-                    <h6 class="pt-5">
+                    <h6 class="pt-4">
                         No super top-secret fees. We let you in on our entire work process and stay absolutely
                         transparent with our prices, without bogging you down with complicated contracts and costing
                         tables.
@@ -350,7 +358,7 @@
         <!--======== End Revisions ========-->
 
         <!-- Clients -->
-        <section id="clients">
+        <section id="clients" class="clients">
             <div>
                 <h2>
                     What do our clients think of us?
@@ -396,7 +404,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card hide-card">
                         <div class="d-flex">
                             <img src="assets/images/Vector s.svg" alt="">
                             <img src="assets/images/Vector s.svg" alt="">
@@ -436,85 +444,7 @@
                     </div>
                 </div>
                 <div class="d-flex">
-                    <div class="card">
-                        <div class="d-flex">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector s.svg" alt="">
-                        </div>
-                        <div class="pt-4">
-                            <h4 class="fw-bold">
-                                One of the best platforms ever!
-                            </h4>
-                        </div>
-                        <div>
-                            <p>
-                                Working with Brand Captain is really convenient, relaxed and personal. Communication is
-                                really quick through their platform and they don't need that much direction.
-                                Each designer has their own approach and is really creative.
-                            </p>
-                        </div>
-                        <div class="profile-card pt-4">
-                            <div>
-                                <img class="rounded rounded-circle" src="assets/images/profile1.png" alt="">
-                            </div>
-                            <div class="ms-4">
-                                <div>
-                                    <h5>
-                                        John Doe
-                                    </h5>
-                                </div>
-                                <div>
-                                    <h6 class="text-black-50">
-                                        Business Solutions
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="d-flex">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector s.svg" alt="">
-                            <img src="assets/images/Vector (4).svg" alt="">
-                        </div>
-                        <div class="pt-4">
-                            <h4 class="fw-bold">
-                                I received complex designs within only 48 hours
-                            </h4>
-                        </div>
-                        <div class="pt-4">
-                            <p>
-                                Brand Captain is more affordable than all of the things I tried before. It was always
-                                hard to be profitable. As an owner of a digital marketing agency I highly recommend
-                                using Brand Capatain
-                            </p>
-                        </div>
-                        <div class="profile-card pt-4">
-                            <div>
-                                <img class="rounded rounded-circle" src="assets/images/profile2.png" alt="">
-                            </div>
-                            <div class="ms-4">
-                                <div>
-                                    <h5>
-                                        Anne Brown
-                                    </h5>
-                                </div>
-                                <div>
-                                    <h6 class="text-black-50">
-                                        Digital Media Specialist
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="card">
+                    <div class="card hide-card">
                         <div class="d-flex">
                             <img src="assets/images/Vector s.svg" alt="">
                             <img src="assets/images/Vector s.svg" alt="">
@@ -598,14 +528,14 @@
         <section id="talk-footer">
 
             <!-- Talk -->
-            <section id="talk">
+            <section id="talk" class="talk-section">
                 <div class="talk">
                     <div class="talk-text">
                         <div>
                             <h2 class="text-dark">Talk to us!</h2>
                         </div>
-                        <div>
-                            <h5 class="w-75">
+                        <div class="talk-inner-text">
+                            <h5>
                                 Wanna learn more about Brand Captain and our packages? How about scheduling a demo?
 
                                 <br>
@@ -618,7 +548,7 @@
                         <form action="" class="d-flex flex-column">
                             <input class="rounded p-3" type="text" placeholder="Your Name">
                             <input class="rounded mt-3 p-3" type="email" placeholder="Your Email">
-                            <textarea class="rounded mt-3 p-3" name="message" cols="30" rows="7"
+                            <textarea class="rounded mt-3 p-3 " name="message" cols="30" rows="6"
                                 placeholder="Your message..."></textarea>
                             <button class="form-btn rounded mt-4 p-3">Submit Inquiry</button>
                         </form>
@@ -630,7 +560,7 @@
             <!-- Footer -->
             <section id="footer">
                 <div class="pt-5">
-                    <img src="assets/images/logof.svg" alt="">
+                    <img class="nav-logo" src="assets/images/logof.svg" alt="">
                 </div>
                 <div class="footer-text text-white">
                     <h5>
